@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    max-width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#logg{
+   width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#submit {
+    padding: 5px;
+    border-radius: 20px;
+ 
+}
+#submit a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    
+   
+
+}
+form{
+    width: 400px;
+    height: 200px;
+  display: flex;
+  flex-direction: column;
+    background-color: rgb(223, 197, 47);
+    padding: 20px;
+    border: 5px solid rgb(67, 67, 67);
+    box-shadow: 5px 5px 5px rgb(108, 108, 108) , -5px -5px 5px rgb(109, 109, 109);
+    border-radius: 20px;
+    font-size: 35px;
+    position: absolute;
+    justify-content: center;
+     align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+video{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    position: absolute;
+    z-index: 0;
+}
+
+
+
+/* INDEX 2 STYLING ****************************************************************8 */
+
